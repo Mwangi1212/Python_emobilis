@@ -6,9 +6,9 @@
 #Obesity (Class II): 35.0 to 39.9
 #Severe Obesity (Class III): 40.0 or higher
 
-weight=float(input("Enter your weight in kg:"))
+weight=float(input("Enter your weight in kilograms:"))
 height=float(input("Enter your height in meters:")) 
-bmi = w / h**2  # 10**3  math.pow(h,2) h*h
+bmi = weight / height**2  # 10**3  math.pow(h,2) h*h
 
 if bmi< 18.5:
    print("You are underweight")
