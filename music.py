@@ -5,6 +5,7 @@ import yt_dlp
 ydl_opts = {
 
     'format': 'bestaudio/best',
+    'ffmpeg_location': '/usr/bin/ffmpeg',
 'postprocessors': [{
     'key': 'FFmpegExtractAudio',
     'preferredcodec': 'mp3',

@@ -3,3 +3,5 @@ __pycache__/
 *.py[cod]
 *mp3
 *txt
+!requirements.txt
+
