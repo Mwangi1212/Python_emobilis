@@ -57,3 +57,5 @@ people=[{"name":"Lexy","age":"21"},
         ]
 print(people[0]["name"])  # print the list of dictionaries
 
+# loops
+
